@@ -12,7 +12,7 @@ The preprocessing pipeline transforms raw data into a format suitable for traini
 
 1. **`preprocess1.ipynb`**
    - **Purpose**: Processes raw data into intermediate pickle files (`small_Books.pkl` and `small_meta_Books.pkl`).
-   - **Details**: Due to the large size of the Amazon Book dataset, the raw file is not included in this repository. It can be downloaded from [Amazon Reviews Dataset 2023](https://amazon-reviews-2023.github.io/), and [MovieLens 32M] (https://grouplens.org/datasets/movielens/). Additionally, title.basics.tsv contains movie information based on metadata indexed from IMDb: https://datasets.imdbws.com/.
+   - **Details**: Due to the large size of the Amazon Book dataset, the raw file is not included in this repository. It can be downloaded from [Amazon Reviews Dataset 2023](https://amazon-reviews-2023.github.io/), and [MovieLens 32M] (https://grouplens.org/datasets/movielens/). Additionally, when processing ML-32M, we utilizes `title.basics.tsv`, which contains movie information based on metadata indexed from IMDb (dowdloaded from https://datasets.imdbws.com/).
 
 2. **`preprocess2.ipynb`**
    - **Purpose**: Converts the intermediate files into the final dataset by performing the following three steps:
